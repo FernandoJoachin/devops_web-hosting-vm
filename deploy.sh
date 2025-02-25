@@ -5,7 +5,7 @@ pkill ngrok
 
 # Actualizar el repositorio
 echo "Actualizando el repositorio..."
-cd /ruta/a/tu/repositorio
+cd /var/www/html/devops_web-hosting-vm
 git pull origin main  # Cambia "main" por la rama que uses
 
 # Iniciar NGINX
